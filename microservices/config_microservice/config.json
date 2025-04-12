@@ -4,5 +4,8 @@
       "http://localhost:8004",
       "http://localhost:8005"
     ],
-    "messages_service": "http://localhost:8002"
+    "messages_services": [
+      "http://localhost:8007", 
+      "http://localhost:8008"
+    ]
   }

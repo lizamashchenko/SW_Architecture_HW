@@ -3,7 +3,7 @@ import asyncio
 
 async def send_messages():
     async with httpx.AsyncClient(timeout=10.0) as client:  # Increased timeout
-        for i in range(1, 11):
+        for i in range(1, 101):
             try:
                 response = await client.post(
                     "http://localhost:8000/send",  
